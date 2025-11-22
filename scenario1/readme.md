@@ -39,7 +39,7 @@ This is something real customers could encounter, so I adapted the solution acco
 ▶ Running the PoC
 pip install requests
 export QASE_API_TOKEN="your_token"
-python qase_copy_results_v4.py --project-a PROJA --run-a 1 --project-b PROJB --run-b 1
+python scenario1/qase_copy_results_v4.py --project-a PROJA --run-a 1 --project-b PROJB --run-b 1
 
 ✔ Status
 
