@@ -5,7 +5,7 @@ This repository contains a small Proof-of-Concept script developed for the Qase 
 The goal of the PoC is simple:
 Copy automated test results from a run in Project B into the corresponding run in Project A, matching the correct test cases using a custom field (mapping_id).
 
-🚀 What the script does
+What the script does
 
 Reads test cases from Project A
 
@@ -19,7 +19,7 @@ Posts the mapped results into the selected run in Project A
 
 I built this in Python even though I'm not a developer by trade, focusing on clarity, correctness, and understanding of Qase’s API behavior.
 
-🧩 API Detail Discovered
+ API Detail Discovered
 
 During testing, I found that:
 
