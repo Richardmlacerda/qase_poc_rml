@@ -1,0 +1,50 @@
+{
+    "qase": {
+        "api_token": "<QASE_API_TOKEN>",
+        "scim_token": "<QASE_SCIM_API_TOKEN>",
+        "host": "<QASE_API_HOST|Default:qase.io>",
+        "ssl": true,
+        "enterprise": false
+    },
+    "testrail": {
+        "connection": "api",
+        "api": {
+            "host": "<TESTRAIL_HOST>",
+            "user": "<TESTRAIL_USER_EMAIL>",
+            "password": "<TESTRAIL_USER_PASSWORD>",
+            "token": "<TESTRAIL_API_TOKEN>",
+            "requests_per_minute": 0
+        }
+    },
+    "projects": {
+        "import": [],
+        "status": "all|active|archived"
+    },
+    "suites": {
+        "single_suite": false
+    },
+    "tests": {
+        "preserve_ids": true,
+        "fields": [],
+        "refs": {
+            "enable": true,
+            "url": "http://localhost:8899/"
+        }
+    },
+    "runs": {
+        "created_after": 1672524000
+    },
+    "users": {
+        "default": 1,
+        "create": true,
+        "inactive": true,
+        "migrate": true
+    },
+    "groups": {
+        "create": false,
+        "name": "TestRail Migration"
+    },
+    "prefix": "local",
+    "sync": false,
+    "cache": true
+}
